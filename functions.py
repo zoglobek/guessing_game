@@ -1,5 +1,4 @@
 import random
-import logic
 from guess_game.messages import high_guess, low_guess, win
 
 
