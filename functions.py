@@ -7,12 +7,12 @@ def get_num():
     return my_number
 
 def is_high(my_number:int, valid_num:int):
-    if my_number > valid_num:
+    if my_number < valid_num:
         return high_guess
 
 
 def is_low(my_number:int, valid_num:int):
-    if my_number < valid_num:
+    if my_number > valid_num:
         return low_guess
 
 
