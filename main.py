@@ -1,3 +1,5 @@
+import sys
+sys.path.append(".")
 from guess_game.logic import player_input, is_valid
 from guess_game.messages import start_message, try_again
 from guess_game.functions import get_num, is_high, is_low ,is_num
